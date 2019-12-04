@@ -1,0 +1,119 @@
+.top_banner{
+    width: 100%;
+}
+// 顶部有绝对定位的盒子
+.big_banner_box{
+    position: relative;
+    width: 100%;
+    .tab_trance{
+        position: absolute;
+        display: flex;
+        height: 40%;
+        width: 80%;
+        background-color: #ffffff;
+        justify-content: space-around;
+        box-shadow: 0 5px 40px rgba(0, 0, 0, .2);
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%,50%);
+        .inner_box{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            &:hover{
+                color: #ED4500;
+            }
+        }
+    }
+}
+.pic_info{
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:200px;
+    img{
+        display: block;
+    }
+    .info_text{
+        position: absolute;
+        span{
+            display: block;
+            text-align: center;
+            &:nth-of-type(1){
+                color: #000000;
+                font-size: 28px;
+            }
+            &:nth-of-type(2){
+                color: #666666;
+                font-size: 14px;
+            }
+        }
+    }
+}
+// c产品中心下方的tab选项卡
+.product_tabcheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    .red_line{
+        color: #CF000E;
+    }
+    .active{
+        color: #ED4500;
+    }
+}
+// 下方的具体内容
+.product_box{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px auto;
+    .product_box_msg{
+        width: 360px;
+        height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0 5px 40px rgba(0, 0, 0, .2);
+        border-radius:20px ;
+        margin-bottom:50px ;
+        .product_title{
+            color: #333333;
+            font-size: 18px;
+            display: block;
+            margin-top:30px;
+            margin-bottom: 30px;
+        }
+        .product_info_msg{
+            color: #666666;
+            font-size: 14px;
+            padding: 0 20px;
+        }
+    }
+}
+// 新闻的页数切换
+.tab_check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        padding: 10px;
+        font-size: 12px;
+        background-color: #E6E6E6;
+        color: #969696;
+        margin-left: 10px;
+        &:hover{
+            color: #ffffff;
+            background-color: #F67605;
+        }
+    }
+    .dot{
+        background-color: #ffffff;
+    }
+}

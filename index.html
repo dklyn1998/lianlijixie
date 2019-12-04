@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+    
+</head>
+<body>
+    <!-- 头部有logo和中英文切换 -->
+    <header>
+        <img src="./image/index/LOGO.png" alt="首页logo，联力机械" class="top_logo_img">
+        <div class="lang_btn">
+            <button class="lang_cn active">中文</button>
+            <button class="lang_eng">English</button>
+        </div>
+    </header>
+    <!-- 中间tab标签区域 可能有跳转事件  里面使用a标签 -->
+    <div class="tab_choose">
+        <a href="./index.html" class="active"> 网站首页</a>
+        <a href="./about.html"> 关于联力</a>
+        <a href="./news.html"> 公司动态</a>
+        <a href="./about.html"> 荣誉资质</a>
+        <a href="./product.html"> 产品中心</a>
+        <a href="./case.html"> 案例中心</a>
+    </div>
+    <!-- banner区域 展示图片，展示没有轮播图的需求 -->
+    <img src="./image/index/banner1.png" alt="企业展示" class="banner_display">
+    <!-- 下面应该是点击就能切换的标签 所以要添加点击事件 -->
+    <div class="platform" >
+        <div class="platform_tab_area active">
+            <img src="./image/pic/index/web1x/gaokong1.png">
+            <img src="./image/pic/index/web1x/gaokong2.png" class="active">
+            <text >
+                高空作业平台
+            </text>
+        </div>
+        <div class="platform_tab_area">
+            <img src="./image/pic/index/web1x/jiancha1.png">
+            <img src="./image/pic/index/web1x/jiancha2.png" class="active">
+            <text >
+                剪叉式升降平台
+            </text>
+        </div>
+        <div class="platform_tab_area">
+            <img src="./image/pic/index/web1x/guding1.png">
+            <img src="./image/pic/index/web1x/guding2.png" class="active">
+            <text >
+                固定式登车桥
+            </text>
+        </div>
+        <div class="platform_tab_area">
+            <img src="./image/pic/index/web1x/lvhejing1.png">
+            <img src="./image/pic/index/web1x/lvhejing2.png" class="active">
+            <text >
+                铝合金升降平台
+            </text>
+        </div>
+        <div class="platform_tab_area">
+            <img src="./image/pic/index/web1x/qiche1.png">
+            <img src="./image/pic/index/web1x/qiche2.png" class="active">
+            <text >
+                汽车升降平台
+            </text>
+        </div>
+        <div class="platform_tab_area">
+            <img src="./image/pic/index/web1x/yidong1.png">
+            <img src="./image/pic/index/web1x/yidong2.png" class="active">
+            <text >
+                移动式登车桥
+            </text>
+        </div>
+        <div class="platform_tab_area">
+            <text class="other">
+                其他
+            </text>
+        </div>
+    </div>
+    <!--下面是图片的展示区域我准备用figure和figurecation来完成 -->
+    <div class="pic_display">
+        <figure>
+            <img src="./image/index/1.png">
+            <figcaption>移动式登车桥 — DCQY10-7</figcaption>
+        </figure>
+        <figure>
+            <img src="./image/index/2.png">
+            <figcaption>液压登车桥 — LL-DCQ8</figcaption>
+        </figure>
+        <figure>
+            <img src="./image/index/3.png">
+            <figcaption>移动式登车桥 — LL-DCQY15</figcaption>
+        </figure>
+        <figure>
+            <img src="./image/index/4.png">
+            <figcaption>移动式登车桥 — DCQY10</figcaption>
+        </figure>
+    </div>
+    <!-- 更多部分 -->
+    <!-- 更多的图标部分 -->
+    <div class="more_pic">
+        <img src="./image/pic/index/web1x/more.png">
+        <span>more</span>
+    </div>
+    <!-- 关于我们标题部分 -->
+    <div class="about_us">
+        <span>About company</span>
+        <span>关于我们</span>
+    </div>
+    <!-- 下方的播哦放视频以及右方的文章 -->
+    <div class="actical_video">
+        <img src="./image/index/5.png">
+        <div class="artical_area">
+            <span>四川联力液压机械设备有限公司</span>
+            <span>
+                    <div> 四川联力液压机械设备有限公司，位于广汉经济开发区高雄路西三段，厂房占地面积5000多平方米。我公司具有相关产品10年的生产和销售服务经验，由于公司发展原因与2012年8月份从成都市新都区迁址广汉工业区于10月份完成相关手续的办理。我公司是西南物流装卸设备生产、销售及服务的优质企业。主要从事液压登车桥（高度调节板、登车桥）、汽车尾板、升降平台等自动化物流机械设备的设计、生产和销售服务等工作。</div>
+                    <div>技术公司拥有大型生产设备剪板机、折弯机、数控切割机、埋伏焊机、大型数控车床锯床数台，具有很强的设备生产能力。现拥有高级工程师2名... <a>[详情]</a></div>
+            </span>
+        </div>
+    </div>
+    <!-- 下方的一些点击事件 如荣誉资助 公司简介 企业文化 -->
+    <div class="toggle_display">
+        <a class="display_box" href="./about.html">
+            <img src="./image/pic/index/web1x/rongyu.png">
+            <span>荣誉资质</span>
+        </a>
+        <a class="display_box" href="./about.html">
+            <img src="./image/pic/index/web1x/qiye.png">
+            <span class="active">公司简介</span>
+        </a>
+        <a class="display_box" href="./about.html">
+            <img src="./image/pic/index/web1x/wenhua.png">
+            <span>企业文化</span>
+        </a>
+    </div>
+    <!-- 下方的图片展示 -->
+    <div class="fix_bg">
+            <div class="about_us">
+                <span>About company</span>
+                <span>企业优势</span>
+            </div>
+        <img src="./image/index/qiyefix.png" alt="" class="show_pic" />
+        <!-- <img src="./image//index/bg1.png" alt="" class="fix_bg_sure"> -->
+    </div>
+    
+    <!-- 新闻动态 -->
+    <div class="black_box">
+        <span class="eng_span">INFORMATION</span>
+        <span class="cn_span">新闻动态</span>
+        <div class="info_msg">
+            <div class="left">
+                <div class="leftmgs">
+                        <div class="infomation_msg">公司动态   Dynamics  </div>
+                        <div>恭贺我司广州总部中标广州凯达尔国际枢</div>  
+                        <div>高得机电2018年正式开工</div>                   
+                        <div>高得机电顾问正式被法国雅高酒店集团列</div>
+                        <div>恭贺我司广州总部中标佛山千灯湖国际五</div> 
+                        <div>恭贺我司2018年第一季度中标广州南湖洲际</div>
+                        <div>高得机电2018年正式开工</div>
+                </div>
+                
+                    <div class="righmsg">
+                        <div class="more_dot">...</div>
+                        <div class="time_msg">10-09</div>
+                        <div class="time_msg">10-09</div>
+                        <div class="time_msg">10-09</div>
+                        <div class="time_msg">10-09</div>
+                        <div class="time_msg">10-09</div>
+                        <div class="time_msg">10-09</div>
+                    </div>
+            </div>
+            <div class="right">
+                    <div class="leftmgs">
+                            <div class="infomation_msg">行业资讯   Information</div>
+                            <div>机电设备用房图片展示 </div>  
+                            <div>酒店发电机系统的设计及设备选型思路 </div>                   
+                            <div>酒店工程的筹建及筹开建议</div>
+                            <div>发电机系统的分类 </div> 
+                            <div>断路器小常识</div>
+                            <div>酒店发电机系统的设计及设备选型思路</div>
+                    </div>
+                    
+                        <div class="righmsg">
+                            <div class="more_dot">...</div>
+                            <div class="time_msg">10-09</div>
+                            <div class="time_msg">10-09</div>
+                            <div class="time_msg">10-09</div>
+                            <div class="time_msg">10-09</div>
+                            <div class="time_msg">10-09</div>
+                            <div class="time_msg">10-09</div>
+                        </div>
+                </div>
+        </div>
+        <!-- 更多 -->
+        <div class="more_pic">
+            <img src="./image/pic/index/web1x/more.png">
+            <span>MORE</span>
+        </div>
+    </div>
+    <!-- 合作伙伴部分 -->
+    <div class="about_us">
+        <span>COOPERATIVE PARTNER</span>
+        <span>合作伙伴</span>
+    </div>
+    <!-- 背景图加上一些图片 -->
+    <div class="bg_img">
+        <!-- <img  class='bg_img_show'src="./image/index/bg1.png"> -->
+        <div class="four_img">
+            <img src="./image//index/hezuo1.png">
+            <img src="./image//index/hezuo2.png">
+            <img src="./image//index/hezuo3.png">
+            <img src="./image//index/hezuo4.png">
+        </div>
+    </div>
+<!-- 底部信息栏 -->
+<div class="list_msg">
+    <div class="left">
+        <ul>
+        <li class="topmsg">关于我们</li>
+        <li>荣誉资质</li>
+        <li>企业文化</li>
+        <li>公司简介</li>
+    </ul>
+    <ul>
+        <li class="topmsg">新闻动态</li>
+        <li>公司动态</li>
+        <li>行业新闻</li>
+    </ul>
+    <ul>
+        <li class="topmsg">产品中心</li>
+        <li>装卸设备</li>
+        <li>升降设备</li>
+        <li>高空作业平台</li>
+        <li>其他配件</li>
+    </ul>
+    <ul>
+        <li class="topmsg">成功案例</li>
+        <li>成功案例</li>
+        <li>视频中心</li>
+    </ul>
+    <ul>
+        <li class="topmsg">联系我们</li>
+        <li>在线咨询</li>
+    </ul>
+    </div>
+    <div class="right">
+        <span>咨询热线：136-8801-5068向经理（重庆市场部）</span>
+        <span>187-9315-8884夏先生（西北市场部）</span>
+        <span>销售热线：136-8801-5068</span>
+        <span>地　　址：广汉市经济开发区高雄路西三段22号</span>
+    </div>
+</div>
+    <!-- 最底部的信息 -->
+    <div class="botton_info">
+        <div class="left">
+            网站首页  |  关于联力  |  公司动态  | 荣誉资质  |  产品中心  |  案例中心 
+        </div>
+        <div class="right">技术支持：成都诗昱晞科技有限公司</div>
+    </div>
+    <script src="./node_modules//jquery//dist//jquery.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

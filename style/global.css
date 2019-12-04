@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 1200px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #E1E1E1;
+}
+header .lang_btn .lang_cn,
+header .lang_btn .lang_eng {
+  width: 90px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background-color: #6E6E6E;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+header .lang_btn .active {
+  background-color: #ED4500;
+}
+.tab_choose {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+.tab_choose .active {
+  color: #ED4500;
+  border-bottom: 4px solid #F88A6B;
+  font-weight: bold;
+}
+.tab_choose a {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  out-line: none;
+  color: #222222;
+  font-size: 17px;
+  height: 18px;
+  line-height: 30px;
+  margin-left: 50px;
+  padding-bottom: 25px;
+}
+.tab_choose a:hover {
+  color: #ED4500;
+  border-bottom: 4px solid #F88A6B;
+  font-weight: bold;
+}
+.list_msg {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.list_msg .left {
+  display: flex;
+  justify-content: space-around;
+}
+.list_msg .left ul {
+  list-style: none;
+  color: #767676;
+  text-align: center;
+  margin-left: 50px;
+}
+.list_msg .left ul .topmsg {
+  font-size: 16px;
+  padding: 10px;
+  border-bottom: 1px solid #CCCCCC;
+  color: #454545;
+}
+.list_msg .left ul li {
+  font-size: 14px;
+  line-height: 30px;
+}
+.list_msg .right {
+  display: flex;
+  flex-direction: column;
+}
+.list_msg .right span {
+  display: block;
+  color: #505050;
+  font-size: 14px;
+  line-height: 30px;
+}
+.botton_info {
+  height: 30px;
+  background-color: #383838;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.botton_info .left,
+.botton_info .right {
+  color: #FFFFFF;
+  font-size: 13px;
+}
+i {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  out-line: none;
+}

@@ -1,0 +1,98 @@
+// 首页公司动态bannner
+.banner_img{
+    width: 100%;
+}
+// tab选项卡的切换
+.tab_trance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    .left,.right{
+        width:143px ;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+        border: 1px solid #D2D2D2;
+        box-sizing: border-box;
+    }
+    .left{
+        border-right: none;
+    }
+    .right{
+        border-left: none;
+    }
+    .active{
+        border: none;
+        background-color: #F67605;
+        color: #ffffff;
+    }
+}
+// 下方的新闻
+.new_out_box{
+    display: flex;
+    align-items: center;
+    height: 220px;
+    width: 1200px;
+    padding: 10px;
+    margin: 20px auto;
+    img{
+        width: 250px;
+        height: 165px;
+    }
+    .new_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10px;
+        span{
+            margin: 10px 0;
+            &:nth-of-type(1){
+                color: #0E3F6F;
+                font-size: 18px;
+            }
+            &:nth-of-type(2){
+                color: #969696;
+                font-size: 12px;
+            }
+            &:nth-of-type(3){
+                color: #646464;
+                font-size: 14px;
+            }
+        }
+        .find_more{
+            width: 100px;
+            height: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            border: 1px solid #E6E6E6;
+            text-align: center;
+            &:hover{
+                color: #ffffff;
+                background-color: #F67605;
+            }
+        }
+        
+    }
+}
+// 新闻的页数切换
+.tab_check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        padding: 10px;
+        font-size: 12px;
+        background-color: #E6E6E6;
+        color: #969696;
+        margin-left: 10px;
+        &:hover{
+            color: #ffffff;
+            background-color: #F67605;
+        }
+    }
+    .dot{
+        background-color: #ffffff;
+    }
+}

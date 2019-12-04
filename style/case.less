@@ -1,0 +1,106 @@
+.top_banner{
+    width: 100%;
+}
+
+// 案例中心头部
+.case_tabcheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 100px;
+    .red_line{
+        color: rgb(224, 224, 224);
+    }
+    .case_bar_msg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            &:nth-child(1){
+                font-size: 30px;
+                color: #333333;
+            }
+            &:nth-child(2){
+                font-size: 14px;
+                color: #959595;
+            }
+        }
+    }
+}
+// 下方的tab切换
+.case_tab_next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    span{
+        padding: 10px 20px;
+        color: #323232;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 1px solid #D2D2D2;
+        &:nth-of-type(1){
+            border-right: none;
+        }
+        &:nth-of-type(2){
+            border-left: none;
+        }
+    }
+    .active{
+        color: #ffffff;
+        background-color: #F67605;
+    }
+}
+// 下方的具体内容
+.case_box{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px auto;
+    .case_box_msg{
+        width: 280px;
+        height: 410px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom:50px;
+        margin-left: 10px;
+        border: 1px solid #cccccc;
+        .case_title{
+            color: #333333;
+            font-size: 18px;
+            display: block;
+        }
+        .case_info_msg{
+            color: #666666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+    }
+    .active{
+        color: #ffffff !important;
+    }
+}
+// 新闻的页数切换
+.tab_check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        padding: 10px;
+        font-size: 12px;
+        background-color: #E6E6E6;
+        color: #969696;
+        margin-left: 10px;
+        &:hover{
+            color: #ffffff;
+            background-color: #F67605;
+        }
+    }
+    .dot{
+        background-color: #ffffff !important;
+    }
+}

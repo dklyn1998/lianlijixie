@@ -1,0 +1,18 @@
+$(function(){
+    $('.left').click(function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+    $('.right').click(function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+    $(".case_box_msg").mouseover(function(){
+        $(this).css({
+            "background-color":"#5C95FF",
+            "color":"#fff"
+        }).addClass('active');
+      }).mouseout(function(){
+        $(this).css({
+            "background-color":"#fff",
+        }).removeClass('active');
+      });
+})
