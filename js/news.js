@@ -10,4 +10,14 @@ $(function(){
       }).mouseout(function(){
         $(this).css("background-color","#fff");
       });
+      $(".case_box_msg").mouseover(function(){
+        $(this).css({
+            "background-color":"#5C95FF",
+            "color":"#fff"
+        }).addClass('active');
+      }).mouseout(function(){
+        $(this).css({
+            "background-color":"#fff",
+        }).removeClass('active');
+      });
 })

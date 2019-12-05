@@ -7,7 +7,17 @@
     <title>首页</title>
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/index.css">
-    
+    <link rel="stylesheet" href="./font_anrnoza1n9g/iconfont.css">
+    <style>
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 30px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
 </head>
 <body>
     <!-- 头部有logo和中英文切换 -->
@@ -31,7 +41,7 @@
     <img src="./image/index/banner1.png" alt="企业展示" class="banner_display">
     <!-- 下面应该是点击就能切换的标签 所以要添加点击事件 -->
     <div class="platform" >
-        <div class="platform_tab_area active">
+        <div class="platform_tab_area">
             <img src="./image/pic/index/web1x/gaokong1.png">
             <img src="./image/pic/index/web1x/gaokong2.png" class="active">
             <text >
@@ -111,7 +121,10 @@
     </div>
     <!-- 下方的播哦放视频以及右方的文章 -->
     <div class="actical_video">
-        <img src="./image/index/5.png">
+        <!-- <img src="./image/index/5.png"> -->
+        <video src="./image/testvideo.mp4" controls="controls" poster="./image/index/5.png" style="width: 565px;height: 400px;">
+            您的浏览器不支持 video 标签。
+        </video>
         <div class="artical_area">
             <span>四川联力液压机械设备有限公司</span>
             <span>
@@ -122,16 +135,19 @@
     </div>
     <!-- 下方的一些点击事件 如荣誉资助 公司简介 企业文化 -->
     <div class="toggle_display">
-        <a class="display_box" href="./about.html">
-            <img src="./image/pic/index/web1x/rongyu.png">
+        <a class="display_box" href="./about.html#rongyuzizhi">
+            <!-- <img src="./image/pic/index/web1x/rongyu.png"> -->
+            <span class="iconfont">&#xe734;</span>
             <span>荣誉资质</span>
         </a>
-        <a class="display_box" href="./about.html">
-            <img src="./image/pic/index/web1x/qiye.png">
+        <a class="display_box" href="./about.html#qiyejianjie">
+            <!-- <img src="./image/pic/index/web1x/qiye.png"> -->
+            <span class="iconfont">&#xe618;</span>
             <span class="active">公司简介</span>
         </a>
-        <a class="display_box" href="./about.html">
-            <img src="./image/pic/index/web1x/wenhua.png">
+        <a class="display_box" href="./about.html#qiyewenhua">
+            <span class="iconfont">&#xe622;</span>
+            <!-- <img src="./image/pic/index/web1x/wenhua.png"> -->
             <span>企业文化</span>
         </a>
     </div>
@@ -142,7 +158,6 @@
                 <span>企业优势</span>
             </div>
         <img src="./image/index/qiyefix.png" alt="" class="show_pic" />
-        <!-- <img src="./image//index/bg1.png" alt="" class="fix_bg_sure"> -->
     </div>
     
     <!-- 新闻动态 -->
@@ -219,26 +234,26 @@
     <div class="left">
         <ul>
         <li class="topmsg">关于我们</li>
-        <li>荣誉资质</li>
-        <li>企业文化</li>
-        <li>公司简介</li>
+        <li><a href="./about.html#rongyuzizhi">荣誉资质</a></li>
+        <li><a href="./about.html#qiyewenhua">企业文化</a></li>
+        <li><a href="./about.html#qiyejianjie">公司简介</a></li>
     </ul>
     <ul>
         <li class="topmsg">新闻动态</li>
-        <li>公司动态</li>
-        <li>行业新闻</li>
+        <li><a href="./news.html">公司动态</a></li>
+        <li><a href="./news.html">行业新闻</a></li>
     </ul>
     <ul>
         <li class="topmsg">产品中心</li>
-        <li>装卸设备</li>
-        <li>升降设备</li>
-        <li>高空作业平台</li>
-        <li>其他配件</li>
+        <li><a href="./product.html">装卸设备</a></li>
+        <li><a href="./product.html">升降设备</a></li>
+        <li><a href="./product.html">高空作业平台</a></li>
+        <li><a href="./product.html">其他配件</a></li>
     </ul>
     <ul>
         <li class="topmsg">成功案例</li>
-        <li>成功案例</li>
-        <li>视频中心</li>
+        <li><a href="./case.html">成功案例</a></li>
+        <li><a href="./case.html">视频中心</a></li>
     </ul>
     <ul>
         <li class="topmsg">联系我们</li>

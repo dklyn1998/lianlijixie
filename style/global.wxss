@@ -81,6 +81,9 @@ header .lang_btn .active {
   font-size: 14px;
   line-height: 30px;
 }
+.list_msg .left ul li a {
+  color: #767676;
+}
 .list_msg .right {
   display: flex;
   flex-direction: column;

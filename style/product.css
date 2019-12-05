@@ -110,6 +110,10 @@
   color: #ffffff;
   background-color: #F67605;
 }
+.tab_check .active {
+  color: #ffffff;
+  background-color: #F67605;
+}
 .tab_check .dot {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }

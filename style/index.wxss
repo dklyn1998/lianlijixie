@@ -97,7 +97,7 @@
   margin: 30px auto;
 }
 .actical_video img {
-  width: 565pxs;
+  width: 565px;
 }
 .actical_video .artical_area {
   width: 592px;
