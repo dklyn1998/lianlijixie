@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   height: 220px;
-  width: 1200px;
+  width: 1150px;
   padding: 10px;
   margin: 20px auto;
 }
@@ -45,6 +45,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin-left: 10px;
+  width: 100%;
 }
 .new_out_box .new_info span {
   margin: 10px 0;

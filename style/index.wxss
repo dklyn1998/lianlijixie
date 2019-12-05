@@ -53,9 +53,11 @@
   text-align: center;
   border: 1px solid #E3E3E3;
   padding-bottom: 25px;
+  width: 24%;
+  max-width: 278px;
 }
 .pic_display figure img {
-  width: 278px;
+  width: 100%;
   margin-bottom: 10px;
 }
 .more_pic {
@@ -226,4 +228,8 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+.bg_img img {
+  max-width: 342px;
+  width: 24%;
 }

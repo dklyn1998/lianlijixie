@@ -102,7 +102,7 @@
   margin-bottom: 100px;
 }
 .qualification img {
-  flex: 1;
+  width: 33%;
 }
 .server {
   background-image: url(../image/about/bg2.png);
